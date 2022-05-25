@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SET=$(seq 0 10)
+SET=$(seq 11 20)
 for i in $SET
 do
  echo "Running loop seq "$i > test.txt
